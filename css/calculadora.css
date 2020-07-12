@@ -49,6 +49,7 @@ input[type=button] {
     width: 20.5rem;
     height: 17.5rem;
     border: solid 5px #cf4949;
+    background: linear-gradient(#c1deff, #ffffff);
     float: left;
     margin-left: 2rem;
     margin-top: 2rem;

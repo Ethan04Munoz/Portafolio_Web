@@ -1,8 +1,7 @@
 /**/
 
 .imgbarralateral {
-    width: 15rem;
-    height: 15rem;
+    width: 20%;
     border-radius: 0%;
     transition: all 0.4s;
     -webkit-transition: all 0.4s;
@@ -30,4 +29,37 @@
     font-style: oblique;
     margin-top: 30px;
     margin-left: 6.5rem;
+}
+
+.contactameboton {
+    width: 8rem;
+    height: 4rem;
+    background: linear-gradient(#00a2ff, #396cc9);
+    border: 2px solid #016caa;
+    border-radius: 5px;
+    /**/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--colorboton);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.4s;
+    text-decoration: none;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+.contactameboton:hover {
+    box-shadow: 8px 8px 8px #042f5f;
+    background: linear-gradient(#31b3ff, #2068bb);
+    transition: all 0.3s;
+}
+
+.enlaceboton {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.centrardatos {
+    margin-left: 20%;
 }

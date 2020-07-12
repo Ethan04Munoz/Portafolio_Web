@@ -1,0 +1,130 @@
+@media (min-width: 350px) and (max-width: 900px) {
+    .left {
+        font-size: 12px;
+    }
+    .habilidad {
+        font-size: 10px;
+    }
+    /*Cambio de color*/
+    .small {
+        font-size: 10px;
+    }
+    .botoninterruptor {
+        height: 22px;
+        width: 34px;
+    }
+    .botoninterruptor::before {
+        width: 15px;
+        height: 15px;
+    }
+    /*Esta es para el movimiento de la bolita del boton*/
+    input:checked+.botoninterruptor:before {
+        transform: translateX(10px);
+    }
+    .color {
+        margin-left: 94%;
+        width: 10%;
+        float: left;
+    }
+    /*Ahora son otros contenedores*/
+    .trabajoscontenedorm {
+        width: 85%;
+    }
+    .barraprogreso {
+        width: 90%;
+    }
+    /*Esta parte es para mover la barra lateral*/
+    .barralateral {
+        position: absolute;
+        top: 3700px;
+    }
+    .barralateral {
+        width: 97.4%;
+        border: none;
+        background: var(--backlateral);
+        border: 5px solid var(--bordeslateralresponsivo);
+    }
+    .barralateral .textoexplicacion {
+        font-size: 17px;
+        margin-left: -15%;
+        margin-top: 10%;
+        color: #fff;
+    }
+    .imagenlateral {
+        margin-left: 25%;
+        width: 50%;
+    }
+    .titulolateral {
+        font-size: 25px;
+        margin-left: 13%;
+        color: #fff;
+    }
+    .contactameboton {
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    /*Degradado*/
+    .degradado {
+        width: 85%;
+    }
+    /*Mario*/
+    .trabajoscontenedorm .textoexplicacion {
+        font-size: 17px;
+    }
+    .jugar {
+        width: 30%;
+        margin-left: 35%;
+    }
+    /*Calculadora*/
+    .calcucaja .boton {
+        width: 20%;
+        height: 15%;
+        font-size: 15px;
+    }
+    .calcucaja {
+        width: 90%;
+        margin-left: 5%;
+        height: 14rem;
+    }
+    .calcucaja .textoexplicacion {
+        margin-top: -30%;
+    }
+    .textarea {
+        padding: 10px;
+        font-size: 18px;
+        width: 80%;
+        margin-left: 5%;
+    }
+    .simbolos {
+        margin-top: -56%;
+    }
+    .igual {
+        margin-top: -12%;
+    }
+    .cero {
+        width: 250%;
+    }
+    .testocal {
+        font-size: 15px;
+        margin-top: -150px;
+    }
+    .contcal {
+        height: 30%;
+    }
+    /*Otras cosas*/
+    .trabajoscontenedor {
+        width: 90%;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1100px) {
+    .small {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 2200px) {
+    .small {
+        font-size: 14px;
+    }
+}

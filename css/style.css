@@ -20,6 +20,10 @@
     --botonjugar: #0084ff;
     --botonjugarhov: #004a8f;
     --colorboton: #ebebeb;
+    --backlateral: #006cd1;
+    --bordeslateralresponsivo: #00305e;
+    --barracolor: #006eb8;
+    --fondobarra: #aaaaaa;
 }
 
 
@@ -46,6 +50,10 @@ a los siguientes */
     --botonjugar: #004a8f;
     --botonjugarhov: #0084ff;
     --colorboton: #c9c9c9;
+    --backlateral: #021d36;
+    --bordeslateralresponsivo: #eef7ff;
+    --barracolor: #005791;
+    --fondobarra: #666565;
 }
 
 
@@ -55,6 +63,22 @@ a los siguientes */
 
 
 */
+
+progress[value] {
+    height: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: var(--fondobarra);
+    border-radius: 10% 10% 10% 10%;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: var(--barracolor);
+    border-radius: 10% 0 0 10%;
+}
 
 body {
     background: var(--fondo);
@@ -69,6 +93,7 @@ body {
     border: 2px solid var(--bordes);
     background: var(--fondomenor);
     height: 4rem;
+    width: 100%;
 }
 
 .left {
@@ -171,37 +196,4 @@ body {
 
 .textoexplicacion {
     color: var(--colortexto);
-}
-
-.contactameboton {
-    width: 8rem;
-    height: 4rem;
-    background: linear-gradient(#00a2ff, #396cc9);
-    border: 2px solid #016caa;
-    border-radius: 5px;
-    /**/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--colorboton);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: all 0.4s;
-    text-decoration: none;
-    margin-left: 40%;
-    margin-top: 10px;
-}
-
-.contactameboton:hover {
-    box-shadow: 8px 8px 8px #042f5f;
-    background: linear-gradient(#31b3ff, #2068bb);
-    transition: all 0.3s;
-}
-
-.enlaceboton {
-    text-decoration: none;
-    font-size: 25px;
-}
-
-.centrardatos {
-    margin-left: 20%;
 }
